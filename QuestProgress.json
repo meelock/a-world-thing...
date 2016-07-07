@@ -1,0 +1,25 @@
+{
+  "questProgress": [
+    {
+      "questID": 0,
+      "completed": [],
+      "tasks": []
+    },
+    {
+      "questID": 1,
+      "completed": [],
+      "tasks": []
+    },
+    {
+      "questID": 2,
+      "completed": [],
+      "tasks": [
+        {
+          "completeUsers": [],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ]
+    }
+  ]
+}

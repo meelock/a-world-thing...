@@ -1,0 +1,145 @@
+{
+  "editMode": true,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "just getting started",
+      "description": "This modpack is vanilla, with a few additons. but as you  progress you can/will add more mods.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:grass",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1,
+      "name": "might as well start now",
+      "description": "Also to take into consideration, this questline will do nothing to help you along other then giving you tips.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:stone_pickaxe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "most quests after this will be just progressing tips.",
+      "description": "craft a stone pic, just to show that your not flunking the class.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:ender_eye",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "The old world, of new descoveries!",
+      "description": "This world is not as i seems, but it wont show its secrets to anyone.",
+      "quests": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 96
+        }
+      ]
+    }
+  ]
+}
